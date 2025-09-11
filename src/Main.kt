@@ -10,11 +10,14 @@ import java.util.Scanner
 
 //Вывести таблицу умножения
 fun main() {
-    for (i in 1..9){
-        for (j in 1..9){
-            if (j*i<=9) print("${i*j}____")
-            else print("${i*j}___")
-        }
-        println()
-    }
+    val arrayCube: Array<Array<Array<Int>>> = arrayOf(
+        arrayOf(
+            arrayOf(1,2),
+            arrayOf(3,4)
+        ),
+        arrayOf(
+            arrayOf(5,6),
+            arrayOf(7,8)
+        )
+    )
 }
