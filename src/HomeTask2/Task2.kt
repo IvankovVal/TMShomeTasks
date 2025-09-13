@@ -1,6 +1,5 @@
 package HomeTask2
 
-import com.sun.beans.introspect.ClassInfo.clear
 import kotlin.system.exitProcess
 
 /*
